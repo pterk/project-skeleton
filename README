@@ -1,0 +1,3 @@
+
+./install_zeromq
+pip install -r requirements.txt --install-option="--zmq=${VIRTUAL_ENV}"

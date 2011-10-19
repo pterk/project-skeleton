@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<h2>Logged out</h2>
+<p>You can go back to the <a href="{{ next }}">previous page</a>, maybe visit the <a href="/">homepage</a> or <a href="{% url auth_login %}">{% trans 'log in again' %}</a></p>
+{% endblock %}

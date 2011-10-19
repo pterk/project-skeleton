@@ -1,0 +1,6 @@
+*~
+*.pyc
+db/test.db
+/daemons/tmp/*
+/daemons/logs/*
+static/*
