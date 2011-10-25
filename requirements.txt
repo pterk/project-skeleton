@@ -7,7 +7,7 @@ gunicorn
 python-memcached
 django-sentry
 django-pagination
+raven
 bleach
 supervisor
 South
--e git+git@github.com:dmgctrl/django-ztask.git#egg=django_ztask
